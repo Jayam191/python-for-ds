@@ -1,0 +1,15 @@
+# Python virtual environments
+venv/
+.venv/
+.env
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Log files
+*.log
+
+# Local configuration and secrets
+config.ini
+secrets.json
