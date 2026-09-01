@@ -1,16 +1,20 @@
-# Food Delivery Pipeline
+# Food Delivery Demand Analytics
 
-A Python data engineering project for processing and analyzing food delivery data.
+| Folder | Purpose |
+|---|---|
+| `src/` | Python source code |
+| `data/raw/` | Raw data |
+| `data/processed/` | Processed data |
+| `docs/` | Documentation |
+| `tests/` | Test files |
 
-## Project Structure
+## Setup Instructions
 
-```text
-food-delivery-pipeline/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── docs/
-├── src/
-├── tests/
-├── .gitignore
-└── README.md
+1. Create a Python virtual environment.
+2. Install the required packages.
+3. Run the Python scripts.
+
+## Usage
+
+_Add usage instructions here._
+

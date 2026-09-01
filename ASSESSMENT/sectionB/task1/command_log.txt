@@ -1,0 +1,22 @@
+cd ASSESSMENT/sectionB/task1
+mkdir food-delivery-pipeline
+cd food-delivery-pipeline
+
+mkdir -p src data/raw data/processed docs tests
+
+touch src/.gitkeep
+touch data/raw/.gitkeep
+touch data/processed/.gitkeep
+touch docs/.gitkeep
+touch tests/.gitkeep
+
+git add src/.gitkeep data/raw/.gitkeep data/processed/.gitkeep docs/.gitkeep tests/.gitkeep
+git commit -m "feat: initialise project structure"
+
+git add .gitignore README.md
+git commit -m "docs: add README and .gitignore"
+
+New-Item notes.log -ItemType File
+New-Item data/raw/orders_sample.txt -ItemType File
+
+git status
