@@ -1,0 +1,23 @@
+[
+    {
+        "order_id": 1,
+        "restaurant_name": "Pizza Hut",
+        "amount": 500.0,
+        "delivery_time_minutes": 30,
+        "is_delivered": true
+    },
+    {
+        "order_id": 2,
+        "restaurant_name": "Dominos",
+        "amount": 800.0,
+        "delivery_time_minutes": 40,
+        "is_delivered": true
+    },
+    {
+        "order_id": 3,
+        "restaurant_name": "KFC",
+        "amount": 1200.0,
+        "delivery_time_minutes": 50,
+        "is_delivered": false
+    }
+]
